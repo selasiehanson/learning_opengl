@@ -1,11 +1,86 @@
 [
 {
-  "directory": "/Users/selasiehanson/Work/Labs/c_plus_plus/opengl/new_start",
-  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Iincludes/glad/include", "-Qunused-arguments", "-arch", "x86_64", "-mmacosx-version-min=11.2", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk", "-o", "build/.objs/glad/macosx/x86_64/release/includes/glad/src/glad.c.o", "includes/glad/src/glad.c"],
-  "file": "includes/glad/src/glad.c"
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-std=c++11", "-I/usr/local/include", "-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1", "-Iincludes/glad/include", "-Iincludes/glfw/include", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "CoreVideo", "-framework", "OpenGL", "-framework", "IOKit", "-framework", "Cocoa", "-framework", "Carbon", "-framework", "Foundation", "-framework", "CoreFoundation", "-stdlib=libc++", "-pedantic", "-Wall", "-o", "build/.objs/main/macosx/arm64/release/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
 },
 {
-  "directory": "/Users/selasiehanson/Work/Labs/c_plus_plus/opengl/new_start",
-  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-std=c++11", "-I/usr/local/include", "-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1", "-Iincludes/glad/include", "-framework", "CoreVideo", "-framework", "OpenGL", "-framework", "CoreFoundation", "-framework", "IOKit", "-framework", "Cocoa", "-framework", "Carbon", "-stdlib=libc++", "-pedantic", "-Wall", "-Qunused-arguments", "-arch", "x86_64", "-mmacosx-version-min=11.2", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk", "-o", "build/.objs/main/macosx/x86_64/release/main.cpp.o", "main.cpp"],
-  "file": "main.cpp"
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-pipe", "-DIBOutlet=__attribute__((iboutlet))", "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))", "-DIBAction=void)__attribute__((ibaction)", "-Qunused-arguments", "-arch", "arm64", "-fobjc-arc", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/cocoa_init.m.o", "includes/glfw/src/cocoa_init.m"],
+  "file": "includes/glfw/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-pipe", "-DIBOutlet=__attribute__((iboutlet))", "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))", "-DIBAction=void)__attribute__((ibaction)", "-Qunused-arguments", "-arch", "arm64", "-fobjc-arc", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/cocoa_joystick.m.o", "includes/glfw/src/cocoa_joystick.m"],
+  "file": "includes/glfw/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-pipe", "-DIBOutlet=__attribute__((iboutlet))", "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))", "-DIBAction=void)__attribute__((ibaction)", "-Qunused-arguments", "-arch", "arm64", "-fobjc-arc", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/cocoa_monitor.m.o", "includes/glfw/src/cocoa_monitor.m"],
+  "file": "includes/glfw/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-pipe", "-DIBOutlet=__attribute__((iboutlet))", "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))", "-DIBAction=void)__attribute__((ibaction)", "-Qunused-arguments", "-arch", "arm64", "-fobjc-arc", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/cocoa_window.m.o", "includes/glfw/src/cocoa_window.m"],
+  "file": "includes/glfw/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-pipe", "-DIBOutlet=__attribute__((iboutlet))", "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))", "-DIBAction=void)__attribute__((ibaction)", "-Qunused-arguments", "-arch", "arm64", "-fobjc-arc", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/nsgl_context.m.o", "includes/glfw/src/nsgl_context.m"],
+  "file": "includes/glfw/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/context.c.o", "includes/glfw/src/context.c"],
+  "file": "includes/glfw/src/context.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/init.c.o", "includes/glfw/src/init.c"],
+  "file": "includes/glfw/src/init.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/input.c.o", "includes/glfw/src/input.c"],
+  "file": "includes/glfw/src/input.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/monitor.c.o", "includes/glfw/src/monitor.c"],
+  "file": "includes/glfw/src/monitor.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/vulkan.c.o", "includes/glfw/src/vulkan.c"],
+  "file": "includes/glfw/src/vulkan.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/window.c.o", "includes/glfw/src/window.c"],
+  "file": "includes/glfw/src/window.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/cocoa_time.c.o", "includes/glfw/src/cocoa_time.c"],
+  "file": "includes/glfw/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/posix_thread.c.o", "includes/glfw/src/posix_thread.c"],
+  "file": "includes/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/egl_context.c.o", "includes/glfw/src/egl_context.c"],
+  "file": "includes/glfw/src/egl_context.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glfw/include", "-Iincludes/glfw/src/*.h", "-D_GLFW_COCOA", "-D_GLFW_NSGL", "-D_GLFW_USE_OPENGL", "-framework", "Foundation", "-framework", "CoreFoundation", "-o", "build/.objs/glfw/macosx/arm64/release/includes/glfw/src/osmesa_context.c.o", "includes/glfw/src/osmesa_context.c"],
+  "file": "includes/glfw/src/osmesa_context.c"
+},
+{
+  "directory": "/Users/selasie/Work/c_plus_plus/opengl/new_start",
+  "arguments": ["/usr/bin/xcrun -sdk macosx clang", "-c", "-Qunused-arguments", "-arch", "arm64", "-Iincludes/glad/include", "-o", "build/.objs/glad/macosx/arm64/release/includes/glad/src/glad.c.o", "includes/glad/src/glad.c"],
+  "file": "includes/glad/src/glad.c"
 }]
