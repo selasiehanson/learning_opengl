@@ -21,7 +21,7 @@ target("sglfw")
         -- add_files("./includes/glfw/src/nsgl_context.h")
         -- add_files("./includes/glfw/src/egl_context.h")
         -- add_files("./includes/glfw/src/osmesa_context.h")
-     
+
 
         add_defines("_GLFW_COCOA")
         add_defines("_GLFW_NSGL")
@@ -60,6 +60,8 @@ target("sglfw")
         -- add_frameworks("Cocoa", "OpenGL", "IOKit", "CoreVideo")
         add_frameworks("Cocoa", "IOKit")
         add_cflags("-fpic")
+        -- xmake sets this to true by default.
+        -- xmake sets this to true by default.
         set_values("objc.build.arc", false)
         -- add_cxflags("-stdlib=libc++","-pedantic", "-Wall", {force=true})
         -- add_defines("_CRT_SECURE_NO_WARNINGS")
